@@ -1,0 +1,285 @@
+
+@import url(//db.onlinewebfonts.com/c/82ac464059468e8dacb3d4d3f5c81253?family=Footlight+MT+Light);
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Life+Savers&display=swap');
+
+
+/*
+#title
+{
+	max-width:95%;
+	margin:0 auto;
+	height:30vh;
+	background-image:url(images/forest_large.jpg);
+	background-size:cover;
+	background-position:50% 50%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:1rem;
+}*/
+
+#title img
+{
+	display:block;
+	max-width:800px;
+	margin:0 auto;
+	padding:.25rem;
+}
+
+body
+{
+	background-color:hsl(253, 41%, 34%);
+	color:hsl(50,60%,96%);
+	max-width:95%;
+	margin:0 auto;
+}
+
+h1
+{
+	color:hsl(340,60%,40%);
+	font-size:4rem;
+	font-family:"Footlight MT Light";
+	text-align:center;
+	font-weight:200;
+	margin-top:-100000px;
+	position:absolute;
+}
+
+nav ul
+{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	list-style-type:none;
+	margin:1rem auto;
+	padding:0;
+	max-width:250px;
+	
+}
+
+nav ul li a 
+{
+	color:hsl(331.6, 55.9%, 73.3%);
+	text-decoration:none;
+	padding:.25rem;
+}
+
+nav ul li a:hover
+{
+	color:white;
+	background-color:hsl(331.6, 55.9%, 73.3%);
+}
+
+.active
+{
+	color:white;
+	background-color:hsl(331.6, 55.9%, 73.3%);
+}
+
+h2
+{
+	font-family:"Footlight MT Light";
+	font-size:3rem;
+}
+
+h3
+{
+	font-size:2.5rem;
+	font-family:"Footlight MT Light";
+}
+
+h4
+{
+	font-family:"Footlight MT Light";
+	font-size:1.5rem;
+}
+
+.important
+{
+	color:hsl(330,55%,70%);
+	font-size:1.25rem;
+	font-family:"Life Savers";
+}
+
+p
+{
+	font-family:"Arima Madurai";
+}
+
+a
+{
+	color:hsl(330,50%,80%);
+}
+
+
+.row
+{
+	
+}
+
+
+.row
+{
+	display:flex;
+	flex:1 0 0;
+	flex-wrap:wrap;
+	padding:0;
+	flex-direction:row;
+	justify-content:center;
+	padding:1rem 0;
+}
+
+.card
+{
+	display: flex;
+	flex-direction: column;
+	padding:1rem;
+}
+
+.cardContent
+{
+	align-items: flex-start;
+}
+
+.cardFooter
+{
+	text-align:center;
+}
+
+.card .cardContent 
+{
+	flex: 1 1 0;
+}
+
+.epcards {
+  max-width: 100%;
+  background-color: hsl(0,0%,0%);
+      
+      /* The following flex rules apply to the immediate children of this element.
+      In this case, the <div>s classed as episode. */
+  
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+.episode {
+  background-color: hsl(253, 41%, 34%);
+  border: 1px solid hsl(331.6, 55.9%, 73.3%);
+  border-radius: 3px;
+
+      /* The following flex rules apply to this element. */
+  
+  flex-grow:1;
+  flex-basis:0;
+
+      /* The following flex rules apply to the immediate children of this element. 
+      In this case, the class epheader, the epcontent <div>, and the epfooter <div>. */
+
+  display:flex;
+  flex-direction:column;
+  margin:1rem;
+}
+
+
+.epheader {
+  padding: 1rem;
+  margin: 0;
+  background-color: hsl(331.6, 55.9%, 73.3%);
+  font-size:1.5rem;
+  font-family:"Life Savers";
+  font-variant:small-caps;
+}
+
+.episode .epcontent {
+  padding: 1rem;
+  flex-grow:1;
+}
+
+.episode .epfooter {
+  padding: 1rem 2rem;
+  text-align: center;
+  font-size: 150%;
+  background-color:hsl(320, 30%, 50%);
+  color: white;
+ 
+      /* The following flex rules apply to the immediate children of this element. 
+      In this case, the <p> and the <img>. */
+
+  display:flex;
+  align-items:center;
+}
+
+.episode .epfooter img
+{
+   
+	max-width:100px;
+}
+
+.episode .epfooter p
+{
+   margin-right:auto;
+}
+
+.episode .epcontent img
+{
+	max-width:80%;
+	align-items:center;
+	
+}
+
+.epcontent img
+{
+	align-items:flex-end;
+}
+
+
+
+#forest
+{
+	max-width: 70%;
+}
+
+
+
+#fontcopyright
+{
+	font-size:.5rem;
+}
+
+
+@media only screen and (min-width: 600px){
+	
+	nav ul
+	{
+		max-width:500px;
+		padding:0;
+		
+	}
+	
+	nav ul li a
+	{
+		padding:1rem;
+	}
+	
+}
+
+@media only screen and (min-width: 600px) {
+
+	.home
+	{
+		max-width:600px;
+	}
+	
+	
+
+
+
+	
+}
+
+
+
+
+
+
